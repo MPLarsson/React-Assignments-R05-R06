@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 import Register from './components/Register';
 import Login from './components/Login';
@@ -17,7 +17,7 @@ function ProtectedRoute({ children }) {
 
 function App() {
   return (
-    <Router basename="/React-Assignments-R05-R06">
+    <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/register" element={<Register />} />
