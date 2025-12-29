@@ -1,5 +1,6 @@
 {
   "name": "react-05-06",
+  "homepage": "https://MPLarsson.github.io/React-Assignments-R05-R06",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -26,4 +27,5 @@
     "globals": "^16.5.0",
     "vite": "^7.2.4"
   }
+  
 }
