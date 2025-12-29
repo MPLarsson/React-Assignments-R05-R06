@@ -17,7 +17,7 @@ function ProtectedRoute({ children }) {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React-Assignments-R05-R06">
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/register" element={<Register />} />
